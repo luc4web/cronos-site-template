@@ -1,0 +1,91 @@
+
+/*Main styles */
+
+body{margin-top: 0;}
+h1.title{
+  font: 2em Helvetica, Arial, Sans-Serif;
+  letter-spacing: -5px;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 3px 8px #2a2a2a;
+  letter-spacing: 1px;
+ }
+#logo{width:150px;}
+.fa-clock-o{
+  font-size: 1.8em;
+  margin-left: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+  h3{
+    color:#FFF;
+    font-family: 'Open Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1.25em;
+    background-color:#5a0fa0;
+    width: 90%; 
+
+}
+
+/* About styles */
+.about{background-color: #ebebeb;height: 600px;}
+.about h1 {
+    color: #515151;
+    font-weight: normal;
+    font-size: 4.8em;
+    padding-top: 100px;
+    line-height: 90px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+/* Products styles */
+
+.smartwatch{margin: 0 auto; width:960px;}
+.products1 h3{padding-left: 5px;}
+.products2 h3{padding-left: 5px;}
+.products1 li{
+        display: block;
+        float: left;
+        margin-right: 5em;
+        border: 1px solid #373c3f;
+        border-radius: 4px;
+}
+.products2 li{
+        display: block;
+        float: left;
+        margin-right: 5em;
+        border: 1px solid #373c3f;
+        border-radius: 4px;
+}
+
+.fa-shopping-cart{font-size: 24px;}
+p.price{background-color: #5a0fa0;width: 40%;padding-left: 4px;font-size: 1.2em;}
+.promo{padding-left: 5px;}
+.cart{
+   position: fixed;
+   right:0; 
+   top:1696px;
+}
+.go-top{
+      position: fixed;
+      bottom: 2em;
+      right: 2em;
+      color: #ffffff;
+      background-color:#323746;
+      font-size: 12px;
+      padding: 1em;
+}
+
+/* Footer styles */
+
+.copy{ 
+  text-align: center;
+  margin-bottom: 0;
+  height: 60px;
+  margin-top: 10px;
+}
+
+footer{padding-top: 30px; background-color: #2d303a;margin-top: 18px;}

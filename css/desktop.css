@@ -1,0 +1,54 @@
+#menumobile{
+	display: none;
+}
+#boutonmenu{
+	display: none;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: #fff;
+	margin-top: 97px;
+}
+#menu{
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	z-index: 200;
+	width: 100%;
+}
+header{
+	height : 97px;
+	background-color: #373c3f;
+}
+header h1{
+	line-height: 97px;
+	font-weight: normal;
+	margin-left: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+nav{
+	text-transform: uppercase;
+	color: #fff;
+}
+nav{
+	display: inline-block;
+	margin-left: 30px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+nav a{
+	color: #ebebeb;
+	font-size: 0.9em;
+}
