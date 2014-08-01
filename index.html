@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 		<title>Cronos-e-shop</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
@@ -9,9 +8,9 @@
 		<!--== CSS Files ==-->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />  
-        <link rel="stylesheet" type="text/css" href="css/desktop.css" />
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="css/nivo-slider.css" />
+         <link rel="stylesheet" type="text/css" href="css/nivo-slider.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />  
+         <link rel="stylesheet" type="text/css" href="css/mediaqueries.css" />
 		<!--== Google Fonts ==-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 		
@@ -19,26 +18,27 @@
 	</head>
 	<body>
 	 	
-			<header id="menu">
-			   
-					<i class="fa fa-clock-o"></i><h1 class="title">CRONOS</h1>
-				<nav>
-					<ul>
+			<header id="header">
+			  
+        <div class="nav-hold"> 
+					<h1 class="logo"><i class="fa fa-clock-o"></i>CRONOS</h1>
+          <a href="#" id="mobile-menu" class="mobile-menu">
+      &#9776;
+     </a>
+				<nav class="navigation">
+         
+					<ul id="list-nav">
 						<li><a href="#">Home</a></li>
 						<li><a href="#about">About</a></li>
-						<li><a href="#smartwatch">Smartwatches</a></li>
+						<li><a href="#smartwatch">Smartwatches</a>
+            <li><a href="#">Contact</a>
+            </li>
 						
 					</ul>
 				</nav>
-				<a href="#" id="btn-menu"></a>
+			 </div><!--end nav hold-->
 			</header>
-			<div id="menumobile">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Smartwatches</a></li>
-				</ul>
-			</div>
+			
 		<div class="clear"></div>
 
     <!-- Nivo slider section -->
@@ -58,61 +58,80 @@
     <div class="smartwatch" id="smartwatch">
        <ul class="products1">
          <li>
-           <a href="#">
-           <h3>Moto 360</h3>
-           <img src="images/prod_thumb/thumb1.jpg" alt="moto" />
-           </a>	
-           <p class="price">$420</p>
+             <a href="#">
+             <h3>Galaxy Gear 2 Neo</h3>
+             <img src="images/prod_thumb/thumb0.jpg" alt="gear" />
+             </a> 
+            <div class="price-cart"> 
+             <p class="price">$300</p>
+             <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div> 
           
          </li>
          <li>
-           <a href="#">
-           <h3>Galaxy Gear 2 Neo</h3>
-           <img src="images/prod_thumb/thumb0.jpg" alt="gear" />
-           </a>	
-           <p class="price">$300</p>
+             <a href="#">
+             <h3>Galaxy Gear 2 Neo</h3>
+             <img src="images/prod_thumb/thumb0.jpg" alt="gear" />
+             </a>	
+            <div class="price-cart"> 
+             <p class="price">$300</p>
+             <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div> 
           
          </li>
          <li>
-           <a href="#">
-           <h3>Sony smartwatch</h3>
-           <img src="images/prod_thumb/thumb4.jpg" alt="sony" />
-           </a>	
-           <p class="price">$285</p>
+             <a href="#">
+             <h3>Sony smartwatch</h3>
+             <img src="images/prod_thumb/thumb4.jpg" alt="sony" />
+             </a>	
+
+            <div class="price-cart">
+               <p class="price">$285</p>
+               <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div>   
           
          </li>     
        </ul> 
+      
        <!--end products1 -->
 
        <div class="clear"></div>
        <h3 class="promo">Promo</h3>
-
+    
+   
        <ul class="products2">
        	  <li>
        	    <a href="#">
        	  	<h3>Pebble</h3>
        	  	<img src="images/prod_thumb/thumb5.jpg" alt="peb"/>
        	  	</a>
+          <div class="price-cart"> 
        	  	<p class="price">$229</p>
-       	  	
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+       	  </div>	
        	  </li>
           <li>
             <a href="#">
        	  	<h3>Gear 2</h3>
        	  	<img src="images/prod_thumb/thumb2.jpg" alt="gear"/>
        	  	</a>
-       	  	<p class="price">$290</p>
-       	  	
+           <div class="price-cart"> 
+       	  	 <p class="price">$290</p>
+             <a href="#"><i class="fa fa-shopping-cart"></i></a>
+       	   </div>	
        	  </li>
        	  <li>
        	    <a href="#">
        	  	<h3>Moto 360</h3>
        	  	<img src="images/prod_thumb/thumb6.jpg" alt="moto"/>
        	  	</a>
-       	  	<p class="price">$400</p>
-
+           <div class="price-cart"> 
+       	  	 <p class="price">$400</p>
+             <a href="#"><i class="fa fa-shopping-cart"></i></a>
+           </div>
        	  </li>
        </ul>
+   
     <!-- end products2 -->
     </div>
     <!-- end smartwatch section -->

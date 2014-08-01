@@ -1,0 +1,129 @@
+/******Tablet ********/
+@media screen and (max-width: 1024px){
+   .products1 li{
+   	 width: 50%;
+   	 overflow:hidden;
+   	 margin: 1% 1.6% 1% 3.2%;
+   }
+   .products2 li{
+   	 width: 50%;
+   	 margin: 1% 1.6% 1% 3.2%;
+   	 overflow: hidden;
+
+   }
+   
+ 
+
+}
+
+
+
+
+/****Phone******/
+
+@media screen and (max-width:768px){
+	.mobile-menu{
+		float: right;
+		color: #f9f9f9;
+		display: block;
+		padding: 30px 18px 0 10px;
+		cursor: pointer;
+		font-size: 2em;
+	}
+	#list-nav{
+        
+		float: left;
+		width: 100%;
+		color: #f9f9f9;
+		background-color: #373c3f;
+		margin-top:0;
+		padding-top: 10px;
+       
+
+	}
+
+	#list-nav li{
+		display: block;
+		width: 100%;
+	}
+    
+    .nav-hold {
+      width:100%;
+    }	
+
+	.navigation{
+		width:100%;
+		margin-left: 0;
+		left: 0;
+
+	}
+
+	.about h1 {
+	  padding-top: 20px;
+	  padding-bottom: 0;	
+      font-size: 2.8em;
+      width: 100%;
+
+
+    }	
+
+    .about{
+    	height: 400px;
+    }	
+
+    .products1 li{
+   	 width: 50%;
+   	 margin: 1% 1.6% 1% 3.2%;
+   	 overflow:hidden;
+   }
+   .products2 li{
+   	 width: 50%;
+   	 margin: 1% 1.6% 1% 3.2%;
+     overflow:hidden;
+   }
+   ul.products1{
+   	 padding-left:12px;
+   }
+   ul.products2{
+   	 padding-left: 12px;
+   }
+
+}
+
+/****Small phones 4" and under****/
+
+@media screen and (max-width:480px){
+	.mobile-menu{
+		float: right;
+		color: #f9f9f9;
+		display: block;
+		padding: 20px 10px;
+		cursor: pointer;
+	}
+	 .products1 li{
+   	 width: 30%;
+   	
+   	 overflow:hidden;
+   }
+   .products2 li{
+   	 width: 30%;
+   	 
+     overflow:hidden;
+   }
+
+   ul.products1{
+   	 padding-left: 20px;
+   }
+   ul.products2{
+   	 padding-left: 20px;
+   }
+  
+  .about h1{
+  	font-size: 1.4em;
+  	max-width: 480px;
+  	line-height: 40px;
+  }
+  .about{
+  	height: auto;
+  }
+}
